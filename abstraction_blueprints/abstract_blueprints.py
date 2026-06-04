@@ -5,3 +5,11 @@ class ApplianceBlueprint(ABC):
     def display_status(self):
         pass
 
+class VehicleBlueprint(ABC):
+    @abstractmethod
+    def accelerate(self):
+        pass
+        
+    @abstractmethod
+    def brake(self):
+        pass
