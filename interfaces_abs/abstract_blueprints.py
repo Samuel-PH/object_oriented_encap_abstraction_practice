@@ -13,3 +13,8 @@ class VehicleBlueprint(ABC):
     @abstractmethod
     def brake(self):
         pass
+
+class AnimalBlueprint(ABC):
+    @abstractmethod
+    def get_details(self):
+        pass
