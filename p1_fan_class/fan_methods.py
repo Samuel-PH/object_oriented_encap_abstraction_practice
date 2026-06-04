@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from abstraction_blueprints.abstract_blueprints import ApplianceBlueprint
+from interfaces_abs.abstract_blueprints import ApplianceBlueprint
 
 class Fan(ApplianceBlueprint):
     SLOW = 1
